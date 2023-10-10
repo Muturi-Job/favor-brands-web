@@ -1,0 +1,46 @@
+.product-section-button-image{
+    height: 10vh;
+    width: auto;
+}
+.product-section-buttons button{
+    color: #000;
+    background-color: transparent;
+}
+.product-section-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+
+  
+  .button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #fff;
+    transform: scale(1.15);
+
+    color: #fff;
+  }
+  
+  .button:active {
+    transform: scale(0.95);
+  }
+
+  .product-image{
+    width: 20rem;
+  }
